@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmWestEndOrderx
+Partial Class frmWestEndOrder
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -273,7 +273,7 @@ Partial Class frmWestEndOrderx
         Me.lstTotal.Size = New System.Drawing.Size(229, 52)
         Me.lstTotal.TabIndex = 8
         '
-        'frmWestEndOrderx
+        'frmWestEndOrder
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -288,7 +288,7 @@ Partial Class frmWestEndOrderx
         Me.Controls.Add(Me.btnOrder)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.lblTitle)
-        Me.Name = "frmWestEndOrderx"
+        Me.Name = "frmWestEndOrder"
         Me.Text = "West End Market"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
