@@ -136,10 +136,10 @@
     Private Sub UpdateTotal()
         lstTotal.Items.Clear()
         lstTotal.Items.Add("SUB TOTAL = " & subtotal.ToString("C"))
-        'tax = subtotal * TAX_RATE
-        'lstTotal.Items.Add("     TAX = " & tax.ToString("C"))
-        'total = subtotal + tax
-        'lstTotal.Items.Add("     TOTAL = " & total.ToString("C"))
+        tax = subtotal * TAX_RATE
+        lstTotal.Items.Add("     TAX = " & tax.ToString("C"))
+        total = subtotal + tax
+        lstTotal.Items.Add("     TOTAL = " & total.ToString("C"))
 
         lstOrderReceipt.Items.Add("---------------")
     End Sub
