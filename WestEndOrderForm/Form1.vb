@@ -150,11 +150,11 @@
         ClearCustomerSelections()
     End Sub
 
-    'Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
-    '    InitializeVariables()
-    '    ClearCustomerSelections()
-    '    ClearReceipt()
-    'End Sub
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        InitializeVariables()
+        ClearCustomerSelections()
+        ClearReceipt()
+    End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
@@ -163,4 +163,5 @@
     Private Sub radHokieClub_CheckedChanged(sender As Object, e As EventArgs) Handles radHokieClub.CheckedChanged
 
     End Sub
+
 End Class
