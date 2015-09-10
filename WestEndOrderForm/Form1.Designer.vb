@@ -273,7 +273,7 @@ Partial Class frmWestEndOrder
         Me.lstTotal.Size = New System.Drawing.Size(229, 52)
         Me.lstTotal.TabIndex = 8
         '
-        'frmWestEndOrder
+        'frmWestEndOrderx
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -288,7 +288,7 @@ Partial Class frmWestEndOrder
         Me.Controls.Add(Me.btnOrder)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.lblTitle)
-        Me.Name = "frmWestEndOrder"
+        Me.Name = "frmWestEndOrderx"
         Me.Text = "West End Market"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
