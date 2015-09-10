@@ -159,4 +159,8 @@
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
     End Sub
+
+    Private Sub radHokieClub_CheckedChanged(sender As Object, e As EventArgs) Handles radHokieClub.CheckedChanged
+
+    End Sub
 End Class
